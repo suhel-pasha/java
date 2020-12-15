@@ -1,0 +1,9 @@
+Object Class is present in java.lang package 
+every class in java is directly or indirecl derived from the object class .
+if a class doesn't extend an other class then it is a direct child class 0f object and if extends other class then it is an indirectly derived .therefore
+the object class methods are available in all java classes.
+
+Methods in object class
+1.hashcode( ) : for ever object jvm generates a unique number which is hashcode.it returns distinct integer for distinct object .
+A common misconception about this method is that hashcode( ) method returns on address of object,which is not correct .
+It converts the internal address  of object  to an integer by using an algorithm 

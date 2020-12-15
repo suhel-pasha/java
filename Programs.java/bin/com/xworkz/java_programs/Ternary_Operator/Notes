@@ -1,0 +1,18 @@
+Ternary operator:
+
+· Ternary operator is a shorthand notation for if-else condition.
+
+· It can be shorthand notation for nested if-else condition.
+Syntax:
+
+Condition? If true: if false
+
+The first operand in ternary operator should be a Boolean. If the first operand is true then ternary operator returns second operand else it returns third operand.
+
+Example:
+
+int a = 10;
+
+int b =20;
+
+int result = a<b ? a : b;
