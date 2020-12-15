@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.matrix;
+package com.xworkz.java_programs.Arrays.matrix;
 
 import java.util.Scanner;
 
@@ -42,7 +42,7 @@ System.out.println("The resultant matrix is");
 		System.out.println();
 	}
 	
-	
+scan.close();	
 
 }
 }

@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.matrix;
+package com.xworkz.java_programs.Arrays.matrix;
 
 import java.util.Scanner;
 
