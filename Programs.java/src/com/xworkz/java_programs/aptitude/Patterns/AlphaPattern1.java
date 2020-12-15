@@ -3,7 +3,6 @@ package com.xworkz.java_programs.aptitude.Patterns;
 public class AlphaPattern1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String s="SUHEL";
 		 for (int i = 0; i <= 4; i++)
 	        {

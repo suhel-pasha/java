@@ -3,7 +3,6 @@ package com.xworkz.java_programs.Object_class_methods.clonemethod.Deep_copy;
 public class DeepcopyDemo {
 
 	public static void main(String[] args) throws CloneNotSupportedException {
-		// TODO Auto-generated method stub
 		Xworkz xworkz = new Xworkz();
 		xworkz.name =  "Xworkz";
 		xworkz.founder = "Omkar";
