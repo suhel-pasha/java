@@ -1,5 +1,10 @@
-package com.xworkz.java_programs.aptitude.Patterns;
-
+package com.javatraining.Patterns.Stars;
+/*
+ * *
+ * * *
+ * * * *
+ * * * * *
+ */
 import java.util.Scanner;
 
 public class Pattern1 {
@@ -19,7 +24,7 @@ public class Pattern1 {
 			System.out.println();
 		}
     scan.close();
-	}
-	
+    }
+    
 
 }
