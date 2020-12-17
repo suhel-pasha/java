@@ -28,7 +28,7 @@ public class ATM {
 
      try {
        // reading class dynamically at runtime
-       ATMCard card = (ATMCard)Class.forName(bankName).getDeclaredConstructor().newInstance();
+       ATMCard card = (ATMCard)Class.forName(bankName).newInstance();
 
        start: //label
        while(true) { //inner-while loop
