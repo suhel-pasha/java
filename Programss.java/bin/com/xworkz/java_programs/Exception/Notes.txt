@@ -1,0 +1,36 @@
+Exception 
+It is an event that occurs during execution.
+An abnormal Condition.
+It disturbs the normal flow of Program.
+It as an object thrown at run time.
+It is used to handle runtime errors.
+Exception object contains the error.
+Exception Handling
+It used to handle errors during runtime.
+There are classes present for Exception object.
+1)Throwable class(present under java.lang package)
+    Extended by
+    1)Exception(Recoverable Errors)
+        Compile time Exception(Checked Exception:Directly extending Exception class.)
+        Extended by
+        1)IOException
+        2)SQLException
+        3)CloneNotSupportedException
+             etc.
+        4)RuntimeException(Unchecked Exception:Directly extending Runtime Exception.)
+            Extended by
+            1)ArithmeticException
+            2)NullPointerException(If we try to perform any operation on null objecct,this exception occurs.)
+            3)NumberFormatException
+            4)IndexOutOfBoundException
+                Extended by
+                1)ArrayIndexOutOfBoundException
+                2)StringIndexOutofBoundEception
+            etc.
+    2)error(UnRecoverable Errors)
+        Extended by
+        1)StackOverflowError
+        2)VirtualMachineError
+        3)OutofMemoryError
+        etc.
+
