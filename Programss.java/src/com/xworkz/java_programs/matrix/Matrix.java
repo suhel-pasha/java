@@ -41,6 +41,7 @@ System.out.println("The resultant matrix is");
 		}
 		System.out.println();
 	}
+	scan.close();
 	
 	
 

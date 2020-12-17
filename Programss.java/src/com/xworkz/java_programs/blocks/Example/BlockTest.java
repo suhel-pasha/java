@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.Blocks.Example;
+package com.xworkz.java_programs.blocks.Example;
 
 public class BlockTest {
 

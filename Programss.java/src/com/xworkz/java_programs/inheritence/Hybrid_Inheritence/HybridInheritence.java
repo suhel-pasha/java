@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.Inheritence.Hybrid_Inheritence;
+package com.xworkz.java_programs.inheritence.Hybrid_Inheritence;
 
 public class HybridInheritence {
     

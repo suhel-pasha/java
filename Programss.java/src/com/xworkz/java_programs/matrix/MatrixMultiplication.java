@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class MatrixMultiplication {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[][] Matrix1 = new int[100][100];
 		int[][] Matrix2 = new int[100][100];
 		int[][] Resultant = new int[100][100];
@@ -60,7 +59,7 @@ public class MatrixMultiplication {
 		else
 			System.out.println("The matrices can not be multiplied");
 		
-		
+		scan.close();
 	}
 
 }

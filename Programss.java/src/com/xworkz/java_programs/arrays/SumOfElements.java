@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.Arrays;
+package com.xworkz.java_programs.arrays;
 
 public class SumOfElements {
     public static void main(String[] args) {

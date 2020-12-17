@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.Inheritence.Hierarchical_Inheritence;
+package com.xworkz.java_programs.inheritence.Hierarchical_Inheritence;
 
 public class CSE extends EngineeringBranch {
     void DataStructure() {

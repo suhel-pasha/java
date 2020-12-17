@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.Methods.Example1;
+package com.xworkz.java_programs.methods.Example1;
 public class Pooja{
 	public static void main(String[] args) {
 		System.out.println("Pooja reached the Post Office. ");

@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.Inheritence.Single_Inheritence.No1;
+package com.xworkz.java_programs.inheritence.Single_Inheritence.No1;
 
 public class Cat extends Animal {
 	void drinks() {

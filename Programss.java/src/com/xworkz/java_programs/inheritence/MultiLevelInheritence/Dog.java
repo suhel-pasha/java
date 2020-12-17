@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.Inheritence.MultiLevelInheritence;
+package com.xworkz.java_programs.inheritence.MultiLevelInheritence;
 
 public class Dog extends Animal {
     void bark() {

@@ -19,6 +19,6 @@ public class test
     }
     System.out.println();
     }
- 
+    scan.close();
     }
     }

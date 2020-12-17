@@ -8,6 +8,9 @@ public class InstanceofOperatorDemo {
 		Holige holige = new Holige();
 		Megha megha = new Megha();
 		megha.mouth(champakali);
+		megha.mouth(cake);
+		megha.mouth(holige);
+
 		
 
 	}

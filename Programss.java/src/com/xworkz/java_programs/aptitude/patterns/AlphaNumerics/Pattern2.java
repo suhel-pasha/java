@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.aptitude.Patterns.AlphaNumerics;
+package com.xworkz.java_programs.aptitude.patterns.AlphaNumerics;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.aptitude.Patterns.Stars;
+package com.xworkz.java_programs.aptitude.patterns.Stars;
 /*     *
  *   * *
  * * * *

@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.Inheritence.MultiLevelInheritence;
+package com.xworkz.java_programs.inheritence.MultiLevelInheritence;
 
 public class MultiLevelInheritanceDemo {
    public static void main(String[] args) {

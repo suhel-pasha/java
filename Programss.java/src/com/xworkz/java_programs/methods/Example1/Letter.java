@@ -1,4 +1,4 @@
-package com.xworkz.java_programs.Methods.Example1;
+package com.xworkz.java_programs.methods.Example1;
 public class Letter{
 	String from_address;
 	String content;

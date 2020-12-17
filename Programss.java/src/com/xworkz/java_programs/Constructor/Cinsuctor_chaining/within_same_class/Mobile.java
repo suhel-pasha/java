@@ -18,5 +18,6 @@ public class Mobile {
 		this.Price = price;
 		
 	}
+	
 
 }
