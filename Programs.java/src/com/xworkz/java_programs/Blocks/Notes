@@ -15,7 +15,7 @@ Static{
 
 « it loads during class load.
 « we can have any no of static blocks in class.
-« we have multiblock then they execute accordingly to their occurance.
+« we have multiblock then they execute accordingly to their occurrence.
 « it will execute when we create an object.
 
 public class SibDemo{
@@ -36,7 +36,7 @@ Instance Initialization Block(IIB's)
 The block without name called as IIB.
 
 « Used to initialize instance members of the class.
-« A class can have multiple IIB's but they execute according to their address of occurance.
+« A class can have multiple IIB's but they execute according to their address of occurrence.
 
 public class Pendrive{
 "          public static void main(String[] args) {
