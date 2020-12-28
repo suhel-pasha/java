@@ -1,0 +1,114 @@
+* INHERITANCE: 
+1.Inheritance can be defined as the process where one class acquires the properites of another.
+2.The class which inherits the properites of other is known as SUBCLASS(derived class,child class)
+3. The class whose properites are inherited is known as SUPERCLASS(base class,parent class)
+
+EXTENDS KEYWORD
+
+Extends is the keyword used to inherit the properites of class.
+
+SYNTAX:  class Super {
+                         .........
+                        .........
+                     }
+        class Sub extends Super {
+                                 .............
+                                 .............
+                     }
+                                                                                 TYPES OF INHERITANCE
+
+Below are the various types of inheritance in java 
+1.Single inheritance
+2.Multi-level inheritance
+3.Hierarchical inheritance
+4.Multiple inheritance
+5.Hybrid inheritance
+
+1.Single inheritance: *When a class extends another one class only then we call it as Single inheritance.
+The below flow diagram shows the class B extends only one class which is A.Here A is a parent class of b and B would be a child 
+class of A.
+
+2.MULTILEVEL INHERITANCE:
+It refers to a mechanism in OO technology where one can inherit from a derived class,thereby making this derived class the bass class
+ for the new class.
+
+3.HIERARCHICAL INHERITANCE:
+It is one kind of inheritance one class is inherited by many sub classes.
+In below example class B<C and D inherits the same class A, A is the parent class of B,Cand D.
+
+4.MULTIPLE INHERITANCE:
+Refers to the concept of one class extending more than one base class.
+The problem with multiple inheritance is that the derived class will have to manage the dependency on base classes.
+NOTE:JAVA DO NOT SUPPORT MULTIPLE INHERITANCE.
+
+5.HYBRID INHERITANCE:
+It is a combination of single and multiple inheritance
+By using interfaces we can have multiple as well as hybrid inheritance in java. 
+A hybrid inheritance is a combination of more than one types of inheritance. 
+For example when class A and B extends class C & another class D extends class A then this is a hybrid inheritance.
+Hybrid inheritance can be achieved in java by using an interface, if we try to achieve it using only classes it will give an error.
+
+Class C
+
+{
+
+      Public void disp()
+
+      {
+
+          System.out.println(“C”);
+
+       }
+
+}
+
+Class A extends C
+
+{
+
+        Public void disp() 
+
+       {
+
+           System.out.println(“A”);
+
+         }
+
+}
+
+Class B extends C
+
+{
+
+          Public void disp()
+
+         {
+
+             System.out.println(“B”);
+
+          }
+
+}
+
+Class D extends A
+
+{
+
+           Public void disp()
+
+          {
+
+              System.out.println(“D”);
+
+}
+
+           public static void main(String args[]){
+
+            D obj = new D();
+
+             Obj.disp();
+
+}
+Output:
+
+D

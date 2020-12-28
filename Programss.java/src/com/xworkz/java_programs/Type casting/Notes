@@ -1,0 +1,170 @@
+Type casting is a process of converting a value of one data type to another data type.
+For converting the value from one data type to another data type the data types should be compatible.
+Ex:Short to int
+Float to int
+But we cannot convert int to char , because the data types are not compatible here.
+There are two types of type casting :
+1. Primitive type casting
+2. Reference type casting/object type casting
+1. Primitive type casting
+Primitive type casting is the process of conversion of primitive data types.
+There are two types of Primitive type casting
+1. Implicit/Widening/Automic type casting
+2. Explicit/Narrowing/Manual type casting
+1. Implicit/Widening/Automic type casting
+The process of converting smaller data type value to larger data type values.
+
+
+
+
+public class PrimitiveTypeCastingDemo{
+
+public static void main(String[] args){
+
+int i=10;
+
+long j=i;
+
+System.out.println(“i :” + i);
+
+System.out.println(“j :” + j);
+
+}
+
+}
+
+2. Explicit/Narrowing/Manual type casting
+
+The process of converting a large data type value to the smaller data values.
+
+
+
+
+
+public class ExplicitDemo{
+
+Public static void main(String[] args){
+
+long x=100000000L;
+
+int y=(int)x;
+
+System.out.println(“x :” + x);
+
+System.out.println(“y :” + y);
+
+}
+
+}
+
+2.Reference type casting
+
+The process of conversion of one object type to another object type.
+
+Ex: vegetable->carrot
+
+Here we can vegetable object type to carrot , because carrot is also a vegetable and having similar characters with vegetable type.
+
+There are two types of Reference type casting:
+
+1. Up casting
+
+2. Down casting
+
+1. Up casting
+
+The process of giving a parent reference to the child object.
+
+We can give parent reference to any of its child object .
+
+public class Vegetable{
+
+Void wash(){
+
+System.out.println(“washing vegetables…….”);
+
+}
+
+Void chop(){
+
+System.out.println(“choping vegetables……..”);
+
+}
+
+}
+
+Public class Carrot extends Vegetables{
+
+Void halwa(){
+
+System.out.println(“Preaparing halwa…..”);
+
+}
+
+}
+
+Public class ReferenceTypeDemo{
+
+Public static void main(String[] args){
+
+Vegetable vegetable=new Carrot();
+
+Vegetable.wash();
+
+Vegetable.chop();
+
+}
+
+}
+
+2. Down casting
+
+The process of converting a parent reference to the child reference.
+
+Here before doing down casting we have to do up casting.
+
+public class Vegetable{
+
+Void wash(){
+
+System.out.println(“washing vegetables…….”);
+
+}
+
+Void chop(){
+
+System.out.println(“choping vegetables……..”);
+
+}
+
+}
+
+Public class Carrot extends Vegetables{
+
+Void halwa(){
+
+System.out.println(“Preaparing halwa…..”);
+
+}
+
+}
+
+Public class ReferenceTypeDemo{
+
+Public static void main(String[] args){
+
+Vegetable vegetable=new Carrot();
+
+Vegetable.wash();
+
+Vegetable.chop();
+
+Vegetable vegetable1=new Carrot();
+
+Carrot carrot=(carrot)vegetable1;
+
+Carrot .halwa();
+
+}
+
+}
